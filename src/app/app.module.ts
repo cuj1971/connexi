@@ -26,6 +26,8 @@ import { PtComponent } from './features/contact/pt/pt.component';
 import { LeadershipComponent } from './features/about/whoweare/leadership/leadership.component';
 import { ExpertsComponent } from './features/about/whoweare/experts/experts.component';
 import { WhowearetabsComponent } from './shared/components/whowearetabs/whowearetabs.component';
+import { HeaderComponent } from './shared/components/header/header.component';
+import { FooterComponent } from './shared/components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -50,6 +52,8 @@ import { WhowearetabsComponent } from './shared/components/whowearetabs/whoweare
     LeadershipComponent,
     ExpertsComponent,
     WhowearetabsComponent,
+    HeaderComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
