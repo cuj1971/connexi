@@ -10,7 +10,7 @@ on:
   #     - unstable
 
     # This will trigger on all pushes to all branches.
-  pull: {}
+  pull_request: {}
   # Alternatively, you can only trigger if commits are pushed to certain branches, e.g.:
   # pull:
   #   branches:
